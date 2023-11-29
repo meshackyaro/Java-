@@ -33,6 +33,4 @@ System.out.printf("%.2f Rate in USD: $%.2f", chinese, convertedDollars);
 }
 
 
-
-
 }
