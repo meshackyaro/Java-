@@ -4,7 +4,7 @@ public class Nokia{
 
 	Scanner scanner = new Scanner(System.in);
 
-	System.out.println("Enter number 1 to 13 to access menu");
+	System.out.println("Enter 1 to 13 to access menu");
 	System.out.print("1. Phonebook\n2. Messages\n3. Chat\n4. Call register\n5. Tones\n6. Settings\n7. Call divert\n8. Games\n9. Calculator\n10. Reminders\n11. Clock\n12. Profiles\n13. SIM services\n");
 	int menu = scanner.nextInt();
 
@@ -12,7 +12,7 @@ switch(menu){
 	case 1:
 		System.out.println("Phonebook");
 		System.out.println("1. Search\n2. Service Nos.\n3. Add name\n4. Erase\n5. Edit\n6. Assign tone\n7. Send b'card\n8. Options\n9. Speed dials\n10. Voice tags");
-		System.out.println("Enter number 1 to 10 to access Phonebook");
+		System.out.println("Enter 1 to 10 to access Phonebook");
 		int phonebook = scanner.nextInt();
 
 	switch(phonebook){
@@ -49,7 +49,7 @@ switch(menu){
 	case 2: 
 		System.out.println("Messages");
 		System.out.println("1. Write messages\n2. Inbox\n3. Outbox\n4. Picture messages\n5. Templates\n6. Smileys\n7. Message settings\n8. Info services\n9. Voice mailbox number\n10. Service command editor");
-		System.out.println("Enter number 1 to 10 to access Messsages");
+		System.out.println("Enter 1 to 10 to access Messsages");
 		int messages = scanner.nextInt();
 
 	switch(messages){
@@ -108,7 +108,7 @@ switch(menu){
 	case 4: 
 		System.out.println("Call register");
 		System.out.println("1. Missed calls\n2. Received calls\n3. Dialled calls\n4. Erase recent calls\n5. Show calls' duration\n6. Show call cost\n7. Call cost settings\n8. Prepaid cost");
-		System.out.println("Enter number 1 to 8 to access Call register");
+		System.out.println("Enter 1 to 8 to access Call register");
 		int callRegister = scanner.nextInt();
 
 	switch(callRegister){
@@ -162,7 +162,7 @@ switch(menu){
 	case 5: 
 		System.out.println("Tones");
 		System.out.println("1. Ringing tone\n2. Ringing volume\n3. Incoming alert\n4. Composer\n5. Message alert tone\n6. Keypad tones\n7. Warming and game tones\n8. Vibrating alert\n9. Screen saver");
-		System.out.println("Enter number 1 to 9 to access Tones");
+		System.out.println("Enter 1 to 9 to access Tones");
 		int tones = scanner.nextInt();
 	
 	switch(tones){
@@ -188,7 +188,7 @@ switch(menu){
 	case 6:
 		System.out.println("Settings");
 		System.out.println("1. Call settings\n2. Phone settings\n3. Security settings\n4. Restore factory settings");
-		System.out.println("Enter number 1 to 4 to access Settings");
+		System.out.println("Enter 1 to 4 to access Settings");
 		int settings = scanner.nextInt();
 	
 	switch(settings){
@@ -268,7 +268,7 @@ switch(menu){
 	case 11:
 		System.out.println("Clock");
 		System.out.println("1. Alarm clock\n2. Clock settings\n3. Date settings\n4. Stop watch\n5. Countdown timer\n6. Auto update");
-		System.out.println("Enter number 1 to 6 to access Clock");
+		System.out.println("Enter 1 to 6 to access Clock");
 		int clock = scanner.nextInt();
 
 	switch(clock){
