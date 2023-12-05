@@ -188,35 +188,64 @@ switch(menu){
 	case 6:
 		System.out.println("Settings");
 		System.out.println("1. Call settings\n2. Phone settings\n3. Security settings\n4. Restore factory settings");
-		System.out.print("Enter number 1 to 4 to access Settings");
+		System.out.println("Enter number 1 to 4 to access Settings");
 		int settings = scanner.nextInt();
-		int callSettings = scanner.nextInt();
 	
 	switch(settings){
 		case 1: System.out.println("Call settings");
-		if(callSettings == 1){
-		System.out.print("Automatic Redial");
-		}
-		if(callSettings == 2){
-		System.out.println("Speed dialling");
-		}
-		if(callSettings == 3){
-		System.out.print("Call waiting options");
-		}
-		if(callSettings == 4){
-		System.out.println("Own number sending");
-		}
-		if(callSettings == 5){
-		System.out.print("Phone line in use");
-		}
-		if(callSettings == 6){
-		System.out.print("Automatic answer");
-		}
-		break;
+			System.out.println("1.Automatic redial\n2. Speed dialling\n3. Call waiting options\n4. Own number sending\n5. Phone line in use\n6. Automatic answer");
+			System.out.println("Enter 1 to 6 to access Calls settings");
+			int callSettings = scanner.nextInt();
+
+		switch(callSettings){
+			case 1: System.out.println("Automatic redial");
+			break;
+			case 2: System.out.println("Speed dialling");
+			break;
+			case 3: System.out.println("Call waiting options");
+			break;
+			case 4: System.out.println("Own number sending");
+			break;
+			case 5: System.out.println("Phone line in use");
+			break;
+			case 6: System.out.println("Automatic answer");
+			break;}
 		case 2: System.out.println("Phone settings");
-		break;
+			System.out.println("1. Language\n2. Cell info display\n3. Welcome note\n4. Network selection\n5. Confirm SIM service action");
+			System.out.println("Enter 1 to 5 to access Phone settings");
+			int phoneSettings = scanner.nextInt();
+
+		switch(phoneSettings){
+			case 1: System.out.println("Language");
+			break;
+			case 2: System.out.println("Cell info display");
+			break;
+			case 3: System.out.println("Welcome note");
+			break;
+			case 4: System.out.println("Network selection");
+			break;
+			case 5: System.out.println("Confirm SIM service action");
+			break;}
+			
 		case 3: System.out.println("Security settings");
-		break;
+			System.out.println("1. PIN code request\n2. Call barring service\n3. Fixed dialling\n4. Closed other group\n5. Phone security\n6. Change access code");
+			System.out.println("Enter 1 to 6 to access Security settings");
+			int securitySettings = scanner.nextInt();
+
+		switch(securitySettings){
+			case 1: System.out.println("PIN code request");
+			break;
+			case 2: System.out.println("Call barring service");
+			break;
+			case 3: System.out.println("Fixed dialling");
+			break;
+			case 4: System.out.println("Closed other group");
+			break;
+			case 5: System.out.println("Phone security");
+			break;
+			case 6: System.out.println("Change access code");
+			break;}
+
 		case 4: System.out.println("Restore factory settings");
 		break;}
 
