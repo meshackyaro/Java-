@@ -10,7 +10,7 @@ String Player1 = bird.nextLine();
 System.out.print("Enter second player name: ");
 String Player2 = bird.nextLine();
 
-System.out.println("Scissors = 1	Paper = 1	Rock = 0");
+System.out.println("Scissors = 1	Paper = 2	Rock = 0");
 
 System.out.print("Prompt player1 to enter a number: ");
 int Number1 = bird.nextInt();
